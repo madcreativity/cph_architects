@@ -3,22 +3,23 @@
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    height: 176px;
 }
 
-.horizontal-card figure {
-    margin: 0;
-    line-height: 0;
-}
-
-.horizontal-card figure img {
-    width: 100%;
+.horizontal-card img {
+    height: 100%;
 }
 
 .horizontal-card div {
     background-color: var(--light-green);
     color: var(--off-black);
     padding: 16px 8px;
+}
+
+@media screen and (min-width: 769px) {
+    .horizontal-card {
+        height: 256px;
+    }
 }
 /* Horizontal Card Style End */

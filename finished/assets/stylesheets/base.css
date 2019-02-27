@@ -1,0 +1,38 @@
+/* Resets */
+body {
+    margin: 0;
+}
+
+p, h1, h2 {
+    margin: 0;
+}
+
+p {
+    line-height: 20px;
+}
+
+h1 {
+    font-family: "Arial Narrow";
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: "Arial Narrow";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@media screen and (min-width: 769px) {
+    header nav h1 {
+        font-size: 48px;
+    }
+}
+
+/* Define Colours */
+:root {
+    --off-white: #FEFEFE;
+    --light-green: #BCDFDE;
+    --off-black: #707070;
+    --dark-green: #92B8B7;
+}

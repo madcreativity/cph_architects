@@ -5,9 +5,8 @@
     box-sizing: border-box;
 }
 
-.vertical-card figure {
-    margin: 0;
-    line-height: 0;
+.vertical-card img {
+    vertical-align: bottom;
 }
 
 .vertical-card figure img {

@@ -1,0 +1,25 @@
+/* Horizontal Card Style Start */
+.horizontal-card {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    display: flex;
+    height: 176px;
+}
+
+.horizontal-card img {
+    height: 100%;
+}
+
+.horizontal-card div {
+    background-color: var(--light-green);
+    color: var(--off-black);
+    padding: 16px 8px;
+}
+
+@media screen and (min-width: 769px) {
+    .horizontal-card {
+        height: 256px;
+    }
+}
+/* Horizontal Card Style End */

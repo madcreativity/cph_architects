@@ -9,6 +9,8 @@
 
 .gallery-container img {
     width: 100%;
+    object-fit: cover;
+    height: calc((100vw / 3) - (16px * 4));
 }
 
 @media screen and (min-width: 769px) {

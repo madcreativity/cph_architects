@@ -1,0 +1,16 @@
+main > section {
+    color: var(--off-black);
+    padding: 0 8px 8px 8px;
+}
+
+main > section > h1 {
+    margin: 16px 0;
+}
+
+/* Media Queries */
+@media screen and (min-width: 769px) {
+    main {
+        width: 672px;
+        margin: 0 auto;
+    }
+}

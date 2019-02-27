@@ -1,0 +1,35 @@
+main h1 {
+    color: var(--off-black);
+    margin: 16px;
+}
+
+article img {
+    width: 100%;
+}
+
+article div {
+    padding: 8px 8px 16px 8px;
+}
+
+article p {
+    color: var(--off-black);
+    line-height: 20px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 769px) {
+    .inner-container {
+        width: 672px;
+        margin: 0 auto;
+        padding: 48px 0;
+    }
+
+    main h1 {
+        margin: 0 16px 32px 16px;
+    }
+
+    article#minor-article img {
+        float: right;
+        width: 50%;
+    }
+}
